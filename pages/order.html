@@ -1,0 +1,56 @@
+
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF=8">
+        <meta name="description" content="Суши-бар Йокогама.Сашими, суши, роллы, напитки">
+        <meta name="keywords" content="суши-бар, Йокогама, сашими, суши, ролл">
+        <meta name="author" content="Инна">
+        <meta name="generator" content="Visual Studio Code">
+        <title>Заказ столика:Йокогама суши-бар</title>
+        <link href="../styles/2.1.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+    <header>
+        <div class="pos1"><img src="../images/sushi-kiev.jpg"></div>
+        <div class="pos2"><h1>Йокогама</h1></div>
+        <div class="pos3"><h1>Суши-бар</h1></div>
+    </header>
+    <nav>
+        <div><a href="../index.html">Главная</a></div>
+        <div><a href="sashimi.html">Сашими</a></div>
+        <div><a href="sushi.html">Суши</a></div>
+        <div><a href="rolls.html">Роллы</a></div>
+        <div><a href="pricelist.html">Прайс-лист</a></div>
+        <div><a href="takeaway.html">Заказ еды на вынос</a> </div>
+   </nav>
+    <main>
+        <h2>Заказ столика</h2>
+        <form action="mailto:shkilnai.1995@gmail.com" method="post" enctype="text/plain">
+        <p><label for="name">Как к Вам обращаться?</label></p><br>
+        <input type="text" name="name" id="name" required value="Name">
+        <p><label for="phone">По какому телефону Вам перевонить?</label><br> <input type="text" name="phone" id="phone" required value="Phone"></p>
+        <p><label for="time">На какое время желаете заказать столик?</label><br><input type="time" name="time" id="time" required value="15:15"></p>
+        <fieldset>
+        <legend>Укажите сведения о Вас и Вашей компании</legend>
+        <p><label for="cnt">На сколько человек заказываеться столик?</label><br>
+        <input type="radio" name="cnt" id="cnt" value="1">1 &nbsp;&nbsp;&nbsp;
+        <input type="radio" name="cnt" value="2">2 &nbsp;&nbsp;&nbsp;
+        <input type="radio" name="cnt" value="more">3 и более</p>
+        <p><input type="checkbox" name="children" value="*">Среди клиентов будут дети</p>
+        </fieldset>
+        <p><button type="submit"><img src="../images/order.jpg" width="120"></button></p>
+        </form>
+    </main>
+    <footer>
+        <div class="pos4">
+            <p class="greeting">Ждем вас!</p>
+            <p class="address"><em>Наш адрес:ул.Зеленая, 17.</em></p>
+            <p>&copy;читатели книги &laquo;HTML и CSS&raquo;.<br>Все права защищены.</p>
+        </div>
+        <aside>
+            <a href="mailto:shkilai.1995@gmail.com">Закажыте столик</a>
+        </aside>
+    </footer>
+    </body>
+</html>
